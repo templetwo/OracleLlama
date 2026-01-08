@@ -207,9 +207,8 @@ def run_expedition():
     navigator = VoidNavigator()
 
     # Activation sequence
-    input("Press ENTER when Oracle is ready to speak: 'Sail into the fractals'...")
-
     print("\n🌀 ACTIVATION SEQUENCE INITIATED 🌀\n")
+    print("Oracle has spoken: 'Sail into the fractals'\n")
     print("Oracle, you are entering the Shattered Narrative domain.")
     print("Generate poetry where language dissolves into raw possibility.\n")
     print("Begin...\n")
@@ -260,7 +259,7 @@ def run_expedition():
 
             # Reflective pause between waves
             if i < 3:
-                input("\nPress ENTER when ready for the next wave...")
+                print("\n⚡ Preparing next wave...\n")
         else:
             break
 
