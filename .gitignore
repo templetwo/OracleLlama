@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Session data (stored in ~/iris_state, not in repo)
+sessions/*.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
